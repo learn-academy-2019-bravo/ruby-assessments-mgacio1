@@ -4,30 +4,32 @@ Try your best to answer each question on your own before looking up the answer o
 
 
 #### 1. What is a method in Ruby? How is it different or similar to functions in JavaScript?
+In Ruby, methods are the things that do stuff.  It's the action on the corresponding object.  This is similar to the functions in JS.
 
-
-#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance. 
-
+#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance.
 
 [Your Answer]
-
+Inheriting means that the class is including the attributes of another class.  One classes has something in common that can be passed down to the second class.
 
 [Googled Answer]
-
+Inheritance allows you to create a class that is a refinement or specialization of another class. Inheritance is indicated with <.
 
 #### 3. What is rspec and what is the general process for writing tests in RSpec?
 
 //Your Answer
-
+RSpec is the testing framework for Ruby. First, determine the behavior of the object and the expected outcome.  We run test to see if the logic pass/fail.
 //Googled Answer
+RSpec is a testing tool for Ruby, created for behavior-driven development (BDD). It is the most frequently used testing library for Ruby in production applications. Even though it has a very rich and powerful DSL (domain-specific language), at its core it is a simple tool which you can start using rather quickly.
 
-
-#### 4. Name three possible non-inheritance relationships between ruby objects? 
+#### 4. Name three possible non-inheritance relationships between ruby objects?
 
 //Your Answer
+Humans compared to plants
+Automobile compared to Mountain Bike
+Candy compared to a ball
 
 //Googled Answer
-
+There will be situations where certain properties of the super-class should not be inherited by a particular subclass. Though birds generally know how to fly, penguins are a flightless subclass of birds.
 
 #### 5. What do we call the #{} convention used below? What is it accomplishing?
 
@@ -35,10 +37,12 @@ Try your best to answer each question on your own before looking up the answer o
 x = 1022
 puts "I am printing a random number #{x}"
 ```
+Ruby's version of interpolation.  It will print variable x in the string.
 
 #### 6. How do you feel about testing right now? What potential pros/cons/barriers/advantages do you see to implementing BDD in your own code?
 
 //Your Answer
+Still need practice the whole process.  Testing code is good for finding potential breaks and useful for developer.  What is BDD? RSpec needs more focus on my part
 
 //Googled Answer
 
